@@ -35,19 +35,14 @@ nav li {
   }
 }
 
-nav ul li a {
-  text-decoration: none;
-  color: #333; /* Cor padrão da fonte */
+a {
+  text-decoration: none; /* Remove o sublinhado padrão dos links */
+  color: #333; /* Cor padrão do texto */
 }
 
-nav ul li:hover a {
-  color: red; /* Cor da fonte ao passar o mouse */
+a:hover {
+  color: red; /* Cor do texto ao passar o mouse */
 }
-
-.home a {
-  color: red; /* Mantém a fonte da aba "Home" sempre vermelha */
-}
-
 .conteudo {
   background-image: url('img/fundo.png');
   background-repeat: no-repeat;
