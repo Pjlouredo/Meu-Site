@@ -56,6 +56,7 @@ nav li {
   .fundo {
     background-image: url('img/fundo.png');
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-attachment: fixed;
+    background-size: cover;
   }
