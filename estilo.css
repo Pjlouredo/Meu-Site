@@ -44,7 +44,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none; /* Remove o sublinhado dos links */
-  color: #ffffff; /* Cor padrão do texto */
+  color: #f3f1f1; /* Cor padrão do texto */
 }
 
 nav ul li:hover a {
