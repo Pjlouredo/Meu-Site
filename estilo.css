@@ -16,6 +16,11 @@ body {
   font-family: 'Times New Roman', Times, serif;
   z-index: 999; /* Mantém o topo sobreposto ao conteúdo */
 }
+
+.home {
+  color: red;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -31,7 +36,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: red; /* Herda a cor do elemento pai (li) */
+  color: inherit; /* Herda a cor do elemento pai (li) */
 }
 
 nav li:hover a {
