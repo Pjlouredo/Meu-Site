@@ -17,6 +17,10 @@ body {
   z-index: 999; /* Mantém o topo sobreposto ao conteúdo */
 }
 
+.topo nav ul li.home a {
+  color: red;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -44,9 +48,6 @@ nav li:hover a {
   nav li {
     margin: 5px;
   }
-}
-.home a {
-  color: red;
 }
 
 .conteudo {
