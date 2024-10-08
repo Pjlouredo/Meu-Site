@@ -35,6 +35,26 @@ nav li {
   }
 }
 
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  background-color: #fff; /* Cor de fundo padrão */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333; /* Cor do texto padrão */
+}
+
+nav ul li:hover {
+  background-color: red; /* Cor de fundo ao passar o mouse */
+}
+
+.home {
+  background-color: red; /* Mantém a aba "Home" sempre vermelha */
+}
+
 .conteudo {
   background-image: url('img/fundo.png');
   background-repeat: no-repeat;
