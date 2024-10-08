@@ -37,7 +37,7 @@ nav li {
 
 a {
   text-decoration: none; /* Remove o sublinhado padrão dos links */
-  color: #333; /* Cor padrão do texto */
+  color: #ffffff; /* Cor padrão do texto */
 }
 
 a:hover {
@@ -54,7 +54,3 @@ a:hover {
 }
 
 /* Estilos para outros elementos da sua página */
-a {
-  text-decoration: none;
-  color: white;
-}
