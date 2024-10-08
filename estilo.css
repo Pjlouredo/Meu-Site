@@ -27,6 +27,7 @@ nav ul {
 nav li {
   margin: 0 10px;
   margin-top: 10px;
+  color: #f3f1f1; /* Cor padrão do texto */
 }
 
 @media (max-width: 768px) {
@@ -40,12 +41,11 @@ nav ul li {
   display: inline-block; /* Posiciona os itens lado a lado */
   padding: 0; /* Remove o padding interno */
   margin: 0; /* Remove as margens internas */
-  color: #f3f1f1; /* Cor padrão do texto */
 }
 
 nav ul li a {
   text-decoration: none; /* Remove o sublinhado dos links */
-  
+  color: #f3f1f1; /* Cor padrão do texto */
 }
 
 nav ul li:hover a {
