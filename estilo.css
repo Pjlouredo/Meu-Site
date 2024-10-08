@@ -54,6 +54,11 @@ nav li:hover a {
   }
 }
 
+.logo {
+  width: 200%;
+  height: 200%;
+}
+
 /* Estilos para o conteúdo principal */
 .conteudo {
   background-image: url('img/fundo.png');
