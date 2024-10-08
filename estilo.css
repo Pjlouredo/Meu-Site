@@ -16,7 +16,7 @@ body {
   height: 20%;
   font-size: 18px;
   font-family: 'Times New Roman', Times, serif;
-  z-index: 999;
+  z-index: 999; /* Mantém o topo sobreposto ao conteúdo */
 }
 
 /* Estilos para a navegação */
@@ -30,20 +30,20 @@ nav ul {
 nav li {
   margin: 0 10px;
   margin-top: 10px;
-  color: #f3f1f1;
+  color: #f3f1f1; /* Cor padrão do texto */
 }
 
 nav a {
   text-decoration: none;
-  color: inherit;
+  color: inherit; /* Herda a cor do elemento pai (li) */
 }
 
 nav li:hover a {
-  color: red;
+  color: red; /* Cor do texto ao passar o mouse */
 }
 
 /* Estilos específicos para a aba "Home" */
-.home a {
+.topo .home a { /* Garante que a regra se aplique à aba Home dentro da seção topo */
   color: red;
 }
 
