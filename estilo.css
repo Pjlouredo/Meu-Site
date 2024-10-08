@@ -40,11 +40,12 @@ nav ul li {
   display: inline-block; /* Posiciona os itens lado a lado */
   padding: 0; /* Remove o padding interno */
   margin: 0; /* Remove as margens internas */
+  color: #f3f1f1; /* Cor padrão do texto */
 }
 
 nav ul li a {
   text-decoration: none; /* Remove o sublinhado dos links */
-  color: #f3f1f1; /* Cor padrão do texto */
+  
 }
 
 nav ul li:hover a {
@@ -61,7 +62,5 @@ nav ul li:hover a {
   background-size: cover;
   background-attachment: fixed;
   min-height: 100vh;   
-/* Garante que o fundo tenha pelo menos a altura da viewport */
-}
 
-/* Estilos para outros elementos da sua página */
+}
