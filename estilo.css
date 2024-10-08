@@ -1,9 +1,11 @@
+/* Estilos globais */
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
 
+/* Estilos para a seção do topo */
 .topo {
   background-color: rgb(0, 0, 0);
   opacity: 0.5;
@@ -14,13 +16,10 @@ body {
   height: 20%;
   font-size: 18px;
   font-family: 'Times New Roman', Times, serif;
-  z-index: 999; /* Mantém o topo sobreposto ao conteúdo */
+  z-index: 999;
 }
 
-.topo nav ul li.home a {
-  color: red;
-}
-
+/* Estilos para a navegação */
 nav ul {
   list-style: none;
   display: flex;
@@ -31,25 +30,31 @@ nav ul {
 nav li {
   margin: 0 10px;
   margin-top: 10px;
-  color: #f3f1f1; /* Cor padrão do texto */
+  color: #f3f1f1;
 }
 
 nav a {
   text-decoration: none;
-  color: inherit; /* Herda a cor do elemento pai (li) */
+  color: inherit;
 }
 
 nav li:hover a {
-  color: red; /* Cor do texto ao passar o mouse */
+  color: red;
 }
 
-/* Media query para telas menores */
+/* Estilos específicos para a aba "Home" */
+.home a {
+  color: red;
+}
+
+/* Estilos para telas menores */
 @media (max-width: 768px) {
   nav li {
     margin: 5px;
   }
 }
 
+/* Estilos para o conteúdo principal */
 .conteudo {
   background-image: url('img/fundo.png');
   background-repeat: no-repeat;
