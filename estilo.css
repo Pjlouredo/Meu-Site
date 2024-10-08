@@ -43,7 +43,7 @@ nav li:hover a {
 }
 
 /* Estilos específicos para a aba "Home" */
-.topo .home a.ativa { /* Garante que a regra se aplique à aba Home dentro da seção topo */
+.home.ativa {
   color: red;
 }
 
