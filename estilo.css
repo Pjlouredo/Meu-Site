@@ -16,7 +16,6 @@ body {
   font-family: 'Times New Roman', Times, serif;
   z-index: 999; /* Mantém o topo sobreposto ao conteúdo */
 }
-
 nav ul {
   list-style: none;
   display: flex;
@@ -30,31 +29,22 @@ nav li {
   color: #f3f1f1; /* Cor padrão do texto */
 }
 
-@media (max-width: 768px) {
-  nav li {
-      margin: 5px;
-  }
+nav a {
+  text-decoration: none;
+  color: inherit; /* Herda a cor do elemento pai (li) */
 }
 
-nav ul li {
-  list-style: none; /* Remove os marcadores da lista */
-  display: inline-block; /* Posiciona os itens lado a lado */
-  padding: 0; /* Remove o padding interno */
-  margin: 0; /* Remove as margens internas */
-}
-
-nav ul li a {
-  text-decoration: none; /* Remove o sublinhado dos links */
-  color: #f3f1f1; /* Cor padrão do texto */
-}
-
-nav ul li:hover a {
+nav li:hover a {
   color: red; /* Cor do texto ao passar o mouse */
 }
 
-.home {
-  color: red; /* Mantém a aba "Home" sempre vermelha */
+/* Media query para telas menores */
+@media (max-width: 768px) {
+  nav li {
+    margin: 5px;
+  }
 }
+
 .conteudo {
   background-image: url('img/fundo.png');
   background-repeat: no-repeat;
