@@ -52,3 +52,9 @@ nav li {
   .aba-cor {
     color: #ff0000;
   }
+
+  .fundo {
+    background-image: url('img/fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
