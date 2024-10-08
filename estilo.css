@@ -31,7 +31,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: inherit; /* Herda a cor do elemento pai (li) */
+  color: red; /* Herda a cor do elemento pai (li) */
 }
 
 nav li:hover a {
