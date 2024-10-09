@@ -85,7 +85,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 90%;
   background-color: #f0f0f0; /* Cor de fundo da seção */
   z-index: 999; /* Garante que a seção fique acima de outros elementos */
 }
