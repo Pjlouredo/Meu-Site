@@ -85,11 +85,11 @@ body {
   position: fixed;
   top: 0;
   left: ;
-  width: 95%;
-
+  width: 100%;
   background-color: #f0f0f0; /* Cor de fundo da seção */
   z-index: 999; /* Garante que a seção fique acima de outros elementos */
 }
+
 .hero {
   margin-top: 80px;
   background-image: url('barber-shop.jpg');
@@ -103,6 +103,8 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   padding: 20px;
   border-radius: 5px;
+  margin-left: 130px;
+  margin-right: 130px;
 }
 
 .btn {
@@ -157,6 +159,18 @@ footer {
   text-align: center;
   padding: 20px 0;
 }
+
+.social-links a {
+  color: white;
+  text-decoration: none;
+}
+.social-links img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+
 
 .whatsapp-button {
   position: fixed;
