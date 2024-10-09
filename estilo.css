@@ -19,7 +19,8 @@ body {
 
 .logo > img {
   width: 200px;
-  height: 200px;
+  height: auto;
+  object-fit: contain;
   margin: 80px auto 0 auto; /* Adiciona 50px de margem superior */
 }
 
