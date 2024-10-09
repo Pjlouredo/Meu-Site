@@ -90,10 +90,6 @@ nav ul li a:hover {
   color: var(--primary-color);
 }
 
-.section > p {
-  text-align: center;
-}
-
 .services-grid,
 .team-grid,
 .products-grid {
