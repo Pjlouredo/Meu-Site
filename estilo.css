@@ -26,12 +26,12 @@ body {
 }
 
 header {
-  background-color: black); /* Cor branca com 70% de transparência */
+  background-color: rgba(255, 255, 255, 0.7); /* Cor branca com 70% de transparência */
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 10;
-  color: white;
+  color: gray;
   padding: 20px 0;
 }
 
