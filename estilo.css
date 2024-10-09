@@ -35,24 +35,36 @@ header {
   height: 20%;
   font-size: 22px;
   font-family: encode sans;
+  
 }
 
-
 nav ul {
-  list-style-type: none;
+  list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+nav li {
+  margin: 0 10px; /* Añade un margen de 10px a cada lado de cada elemento */
+  margin-top: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 nav ul li a {
   color: white;
-  text-decoration: none;
-  font-weight: bold;
   transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-  color: var(--accent-color);
+  color: #ff0000; /* Vermelho em hexadecimal */
+}
+
+nav ul li a:active {
+  color: #800000; /* Vermelho escuro em hexadecimal */
 }
 
 .hero {
