@@ -26,13 +26,15 @@ body {
 }
 
 header {
-  background-color: rgba(255, 255, 255, 0.7); /* Cor branca com 70% de transparência */
+  background-color: rgb(0, 0, 0);
+  opacity: 0.5; /* 50% de transparência */
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
-  z-index: 10;
-  color: green;
-  padding: 20px 0;
+  height: 20%;
+  font-size: 22px;
+  font-family: encode sans;
 }
 
 
