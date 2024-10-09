@@ -90,7 +90,7 @@ nav ul li a:hover {
   color: var(--primary-color);
 }
 
-.container p {
+.location > p {
   text-align: center;
 }
 
