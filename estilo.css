@@ -81,7 +81,7 @@ body {
   background-image: url('barber-shop.jpg');
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -96,7 +96,7 @@ body {
 }
 .hero {
   margin-top: 30px;
-
+  
 
 }
 
@@ -121,7 +121,7 @@ body {
 }
 
 .section {
-  padding: 30px 0;
+  padding: 50px 0;
 }
 
 .section-title {
