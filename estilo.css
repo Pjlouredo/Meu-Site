@@ -48,8 +48,9 @@
   text-decoration: none;
   font-size: 18px;
 }
+
 .hero {
-  background-image: url("barber-shop.jpg");
+  background-image: url('barber-shop.jpg');
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -90,17 +91,13 @@
   color: var(--primary-color);
 }
 
-.services-grid,
-.team-grid,
-.products-grid {
+.services-grid, .team-grid, .products-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
 }
 
-.service-item,
-.team-member,
-.product-item {
+.service-item, .team-member, .product-item {
   background-color: white;
   padding: 20px;
   border-radius: 5px;
@@ -127,7 +124,7 @@ footer {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #25d366;
+  background-color: #25D366;
   color: white;
   width: 60px;
   height: 60px;
@@ -146,16 +143,15 @@ footer {
 }
 
 @font-face {
-  font-family: "FontAwesome";
-  src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2")
-    format("woff2");
+  font-family: 'FontAwesome';
+  src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 .whatsapp-icon::before {
-  font-family: "FontAwesome";
-  content: "\f232";
+  font-family: 'FontAwesome';
+  content: '\f232';
 }
 
 @media (max-width: 768px) {
@@ -163,11 +159,11 @@ footer {
     flex-direction: column;
     align-items: center;
   }
-
+  
   nav ul li {
     margin-bottom: 10px;
   }
-
+  
   .hero {
     height: 300px;
   }
