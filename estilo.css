@@ -20,8 +20,7 @@ body {
 .logo > img {
   width: 200px;
   height: 200px;
-  display: block; /* Torna a imagem um elemento de bloco */
-  margin: 0 auto; /* Centraliza horizontalmente */
+  margin: 80px auto 0 auto; /* Adiciona 50px de margem superior */
 }
 
 .menu-wrapper {
