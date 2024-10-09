@@ -84,14 +84,14 @@ nav ul li a:hover {
   padding: 50px 0;
 }
 
+.location > p {
+  text-align: center;
+}
+
 .section-title {
   text-align: center;
   margin-bottom: 30px;
   color: var(--primary-color);
-}
-
-.section p {
-  text-align: center;
 }
 
 .services-grid,
