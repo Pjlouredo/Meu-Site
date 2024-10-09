@@ -88,6 +88,14 @@ body {
   text-align: center;
   color: white;
 }
+.hero {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f0f0f0; /* Cor de fundo da seção */
+  z-index: 999; /* Garante que a seção fique acima de outros elementos */
+}
 
 .hero-content {
   background-color: rgba(0, 0, 0, 0.7);
