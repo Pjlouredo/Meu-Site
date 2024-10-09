@@ -78,13 +78,6 @@ body {
 }
 
 .hero {
-  background-image: url('barber-shop.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 100px;
-  display: flex;
-  margin-left: 100px;
-  margin-right: 100px;
   align-items: center;
   justify-content: center;
   text-align: center;
