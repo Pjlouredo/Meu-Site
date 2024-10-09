@@ -1,5 +1,14 @@
 .menu-toggle {
-  display: none;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: block;
+  cursor: pointer;
+}
+
+.menu-toggle label img {
+  width: 5px;
+  height: 5px;
 }
 
 .nav {
@@ -15,19 +24,6 @@
 .menu-toggle:checked ~ .nav {
   right: 0;
 }
-
-.menu-toggle label img {
-  width: 5px;
-  height: 5px;
-  cursor: pointer;
-}
-
-.menu-toggle . img {
-  width: 5px;
-  height: 5px;
-}
-
-
 
 .hero {
   background-image: url("barber-shop.jpg");
