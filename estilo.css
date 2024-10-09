@@ -18,10 +18,11 @@
 
 /* Estilos para a imagem do menu */
 .menu-toggle label img {
-  width: 30px;
-  height: 30px;
+  width: 5px;
+  height: 5px;
   cursor: pointer;
 }
+
 .hero {
   background-image: url("barber-shop.jpg");
   background-size: cover;
