@@ -1,10 +1,189 @@
-<!DOCTYPE html>
 <html>
   <head>
+    <base href="https://example.com/" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Barbearia   Vintage</title>
-    <link rel="stylesheet" href="Estilo.css" />
+    <title>Barbearia Vintage - Estilo e Tradição</title>
+    <meta
+      name="description"
+      content="Barbearia Vintage - Cortes de cabelo e barba com estilo e tradição. Agende seu horário e experimente o melhor em cuidados masculinos."
+    />
+    <style>
+      :root {
+        --primary-color: #2c3e50;
+        --secondary-color: #e74c3c;
+        --accent-color: #f39c12;
+        --background-color: #ecf0f1;
+        --text-color: #34495e;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Roboto", sans-serif;
+        background-color: var(--background-color);
+        color: var(--text-color);
+        line-height: 1.6;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      header {
+        background-color: var(--primary-color);
+        color: white;
+        padding: 20px 0;
+      }
+
+      nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+      }
+
+      nav ul li a:hover {
+        color: var(--accent-color);
+      }
+
+      .hero {
+        background-image: url("barber-shop.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+      }
+
+      .hero-content {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        border-radius: 5px;
+      }
+
+      .btn {
+        display: inline-block;
+        background-color: var(--secondary-color);
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+
+      .btn:hover {
+        background-color: var(--accent-color);
+      }
+
+      .section {
+        padding: 50px 0;
+      }
+
+      .section-title {
+        text-align: center;
+        margin-bottom: 30px;
+        color: var(--primary-color);
+      }
+
+      .services-grid,
+      .team-grid,
+      .products-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+      }
+
+      .service-item,
+      .team-member,
+      .product-item {
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+
+      .testimonial {
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+      }
+
+      footer {
+        background-color: var(--primary-color);
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      .whatsapp-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #25d366;
+        color: white;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        text-decoration: none;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease;
+      }
+
+      .whatsapp-button:hover {
+        transform: scale(1.1);
+      }
+
+      @font-face {
+        font-family: "FontAwesome";
+        src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2")
+          format("woff2");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      .whatsapp-icon::before {
+        font-family: "FontAwesome";
+        content: "\f232";
+      }
+
+      @media (max-width: 768px) {
+        nav ul {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        nav ul li {
+          margin-bottom: 10px;
+        }
+
+        .hero {
+          height: 300px;
+        }
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -29,6 +208,199 @@
           <h1>Barbearia Vintage</h1>
           <p>Estilo e tradição em cada corte</p>
           <a href="#appointment" class="btn">Agende Agora</a>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <h2 class="section-title">Nossos Serviços</h2>
+          <div class="services-grid">
+            <div class="service-item">
+              <h3>Corte de Cabelo</h3>
+              <p>Corte personalizado de acordo com seu estilo</p>
+              <p>R$ 50,00</p>
+            </div>
+            <div class="service-item">
+              <h3>Barba</h3>
+              <p>Modelagem e aparo de barba</p>
+              <p>R$ 30,00</p>
+            </div>
+            <div class="service-item">
+              <h3>Combo Cabelo + Barba</h3>
+              <p>O pacote completo para seu visual</p>
+              <p>R$ 70,00</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="team" class="section">
+        <div class="container">
+          <h2 class="section-title">Nossa Equipe</h2>
+          <div class="team-grid">
+            <div class="team-member">
+              <img
+                src="barber1.jpg"
+                alt="Foto do barbeiro João"
+                width="200"
+                height="200"
+              />
+              <h3>João</h3>
+              <p>Especialista em cortes clássicos</p>
+            </div>
+            <div class="team-member">
+              <img
+                src="barber2.jpg"
+                alt="Foto do barbeiro Pedro"
+                width="200"
+                height="200"
+              />
+              <h3>Pedro</h3>
+              <p>Mestre em barbas e bigodes</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="products" class="section">
+        <div class="container">
+          <h2 class="section-title">Nossos Produtos</h2>
+          <div class="products-grid">
+            <div class="product-item">
+              <img
+                src="product1.jpg"
+                alt="Pomada modeladora"
+                width="150"
+                height="150"
+              />
+              <h3>Pomada Modeladora</h3>
+              <p>R$ 35,00</p>
+              <a href="/shop/pomada" class="btn">Comprar</a>
+            </div>
+            <div class="product-item">
+              <img
+                src="product2.jpg"
+                alt="Óleo para barba"
+                width="150"
+                height="150"
+              />
+              <h3>Óleo para Barba</h3>
+              <p>R$ 40,00</p>
+              <a href="/shop/oleo-barba" class="btn">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="location" class="section">
+        <div class="container">
+          <h2 class="section-title">Localização</h2>
+          <img
+            src="static-map.jpg"
+            alt="Mapa da localização da barbearia"
+            width="100%"
+            height="400"
+          />
+          <p>Endereço: Rua das Barbearias, 123 - Centro</p>
+          <p>Telefone: (11) 1234-5678</p>
+        </div>
+      </section>
+
+      <section id="appointment" class="section">
+        <div class="container">
+          <h2 class="section-title">Agende seu Horário</h2>
+          <form
+            id="appointment-form"
+            action="/submit-appointment"
+            method="post"
+          >
+            <input type="text" name="name" placeholder="Seu Nome" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Seu E-mail"
+              required
+            />
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Seu Telefone"
+              required
+            />
+            <select name="service" required>
+              <option value="">Selecione o Serviço</option>
+              <option value="haircut">Corte de Cabelo</option>
+              <option value="beard">Barba</option>
+              <option value="combo">Combo Cabelo + Barba</option>
+            </select>
+            <input type="date" name="date" required />
+            <input type="time" name="time" required />
+            <button type="submit" class="btn">Agendar</button>
+          </form>
+        </div>
+      </section>
+
+      <section id="gallery" class="section">
+        <div class="container">
+          <h2 class="section-title">Galeria</h2>
+          <div class="gallery-grid">
+            <img
+              src="gallery1.jpg"
+              alt="Cliente satisfeito após corte de cabelo"
+              width="300"
+              height="200"
+            />
+            <img
+              src="gallery2.jpg"
+              alt="Barbeiro fazendo a barba de um cliente"
+              width="300"
+              height="200"
+            />
+            <img
+              src="gallery3.jpg"
+              alt="Interior da barbearia"
+              width="300"
+              height="200"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="section">
+        <div class="container">
+          <h2 class="section-title">Depoimentos</h2>
+          <div class="testimonial">
+            <p>
+              "Melhor barbearia da cidade! Atendimento impecável e resultado
+              incrível."
+            </p>
+            <p>- Carlos S.</p>
+          </div>
+          <div class="testimonial">
+            <p>"Sempre saio de lá com a autoestima nas alturas. Recomendo!"</p>
+            <p>- André M.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2 class="section-title">Contato</h2>
+          <form id="contact-form" action="/submit-contact" method="post">
+            <input type="text" name="name" placeholder="Seu Nome" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Seu E-mail"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Sua Mensagem"
+              required
+            ></textarea>
+            <button type="submit" class="btn">Enviar</button>
+          </form>
         </div>
       </section>
     </main>
