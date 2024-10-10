@@ -153,6 +153,17 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
+
+.section-title {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  display: block; /* Altere para 'block' para ocupar toda a largura */
+  text-align: center; /* Alinha o texto dentro do elemento ao centro */
+  margin: 0 auto; /* Cria margens automáticas para centralizar horizontalmente */
+}
+
 .service-item img {
   height: 70px; 
 }
