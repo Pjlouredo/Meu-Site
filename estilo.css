@@ -55,6 +55,7 @@ body {
   width: 250px;
   height: 100%;
   background-color: #364b3b;
+  opacity: 0.4; /* Define a transparência como 40% */
   transition: left 0.3s ease-in-out;
    z-index: 1001; /* Aumente o z-index para ficar acima da .hero */
 }
@@ -154,8 +155,6 @@ body {
 }
 .service-item img {
   height: 70px; 
- 
-
 }
 
 .team-member img {
