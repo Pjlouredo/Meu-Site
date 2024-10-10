@@ -152,6 +152,11 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
+.service-item img {
+  height: 70px; 
+ 
+
+}
 
 .team-member img {
   object-fit: cover;
