@@ -155,8 +155,8 @@ body {
 }
 
 .section-title {
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
+  background-color: black;
+  border: 1px solid #252926;
   border-radius: 5px;
   padding: 10px 20px;
   display: block; /* Altere para 'block' para ocupar toda a largura */
