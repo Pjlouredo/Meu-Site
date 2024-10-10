@@ -135,6 +135,7 @@ body {
 
 .section-title {
   text-align: center;
+  text-decoration: none;
   margin-bottom: 30px;
   color: var(--primary-color);
 }
