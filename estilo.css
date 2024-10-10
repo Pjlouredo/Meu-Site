@@ -153,6 +153,12 @@ body {
   text-align: center;
 }
 
+.team-member img {
+  object-fit: cover;
+  height: 200px; /* Ajuste a altura conforme necessário */
+  width: 100%;
+}
+
 .testimonial {
   background-color: white;
   padding: 20px;
