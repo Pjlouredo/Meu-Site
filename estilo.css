@@ -69,6 +69,16 @@ body {
   line-height: 1.6;  
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.side-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
