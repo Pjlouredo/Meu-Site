@@ -249,6 +249,7 @@ footer {
   nav ul {
     flex-direction: column;
     align-items: center;
+    background-attachment: scroll;
   }
   
   nav ul li {
